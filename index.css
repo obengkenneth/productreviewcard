@@ -38,8 +38,10 @@ svg {
     margin-right: 1em;
     vertical-align: middle;
 }
+#description {
+    line-height: 0.1;
+}
 button {
-    margin-top: 1em;
     background-color:hsl(158, 36%, 37%);
     width:100%;
     height: 3.5em;
@@ -54,7 +56,7 @@ button:hover{
 }
 .card {
     max-width: 90%;
-    height: 95vh;
+    height: 90vh;
     margin: 1em auto;
     background-color: white;
     border-radius: 10px;
@@ -75,6 +77,9 @@ button:hover{
     margin-right: auto;
 }
 @media screen and (min-width:1280px){
+    #price1 {
+        margin-top: 0.1em;
+    }
     .card {
         display:flex;
         max-height: 70vh;
@@ -90,7 +95,7 @@ button:hover{
         background-size: cover;
         width: 50%;
         height: 100%;
-
+        
     }
     .card-body{
         width: 50%;
@@ -104,6 +109,7 @@ button:hover{
     button {
         width:80%;
         margin-left: 2em;
+        margin-top: 1em;
        
     }
     #description {
